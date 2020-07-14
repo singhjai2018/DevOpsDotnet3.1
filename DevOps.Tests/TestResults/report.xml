@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="eee9d126-0292-4476-be0f-c44165aab9f9" name="Administrator1@win-10 2020-07-14 11:11:53" runUser="win-10\Administrator1" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-07-14T11:11:53.4251837+05:30" queuing="2020-07-14T11:11:53.4251848+05:30" start="2020-07-14T11:11:50.6824705+05:30" finish="2020-07-14T11:11:53.4627663+05:30" />
+  <TestSettings name="default" id="9b44f862-9560-487e-90b3-a22c55bb6f2b">
+    <Deployment runDeploymentRoot="Administrator1_win-10_2020-07-14_11_11_53" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f05221b7-bfde-4952-ac70-fc57a5eddf8f" testId="38d6c4e8-8f21-593c-4d68-a8701740723d" testName="DevOps.Tests.WeatherForcost_Test.Test1" computerName="win-10" duration="00:00:00.0042502" startTime="2020-07-14T11:11:53.1648228+05:30" endTime="2020-07-14T11:11:53.1649297+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f05221b7-bfde-4952-ac70-fc57a5eddf8f" />
+    <UnitTestResult executionId="39e9ef80-b520-4d21-8fcf-e4ecc9e253f5" testId="b27e89c7-3054-7035-8455-ea248915a1bc" testName="DevOps.Tests.WeatherForcost_Test.GEtTemprature" computerName="win-10" duration="00:00:00.0059782" startTime="2020-07-14T11:11:53.1794117+05:30" endTime="2020-07-14T11:11:53.1794136+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39e9ef80-b520-4d21-8fcf-e4ecc9e253f5" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DevOps.Tests.WeatherForcost_Test.Test1" storage="f:\devops\devops.tests\bin\debug\netcoreapp3.1\devops.tests.dll" id="38d6c4e8-8f21-593c-4d68-a8701740723d">
+      <Execution id="f05221b7-bfde-4952-ac70-fc57a5eddf8f" />
+      <TestMethod codeBase="F:\DevOps\DevOps.Tests\bin\Debug\netcoreapp3.1\DevOps.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DevOps.Tests.WeatherForcost_Test" name="Test1" />
+    </UnitTest>
+    <UnitTest name="DevOps.Tests.WeatherForcost_Test.GEtTemprature" storage="f:\devops\devops.tests\bin\debug\netcoreapp3.1\devops.tests.dll" id="b27e89c7-3054-7035-8455-ea248915a1bc">
+      <Execution id="39e9ef80-b520-4d21-8fcf-e4ecc9e253f5" />
+      <TestMethod codeBase="F:\DevOps\DevOps.Tests\bin\Debug\netcoreapp3.1\DevOps.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="DevOps.Tests.WeatherForcost_Test" name="GEtTemprature" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="38d6c4e8-8f21-593c-4d68-a8701740723d" executionId="f05221b7-bfde-4952-ac70-fc57a5eddf8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b27e89c7-3054-7035-8455-ea248915a1bc" executionId="39e9ef80-b520-4d21-8fcf-e4ecc9e253f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.5)&#xD;
+[xUnit.net 00:00:00.83]   Discovering: DevOps.Tests&#xD;
+[xUnit.net 00:00:00.93]   Discovered:  DevOps.Tests&#xD;
+[xUnit.net 00:00:00.94]   Starting:    DevOps.Tests&#xD;
+[xUnit.net 00:00:01.13]   Finished:    DevOps.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
